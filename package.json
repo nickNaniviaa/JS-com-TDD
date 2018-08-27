@@ -1,0 +1,18 @@
+{
+  "name": "js-tdd-class",
+  "version": "1.0.0",
+  "description": "This is a package/course material for a JavaScript developed with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library",
+    "udemy",
+    "course"
+  ],
+  "author": "Nicolas Vieira <nickrvieira@gmail.com> (https://github.com/nickNaniviaa)",
+  "license": "MIT"
+}
