@@ -4,7 +4,12 @@
   "description": "This is a package/course material for a JavaScript developed with TDD",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint ./src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickNaniviaa/JS-com-TDD.git"
   },
   "keywords": [
     "js",
@@ -14,5 +19,11 @@
     "course"
   ],
   "author": "Nicolas Vieira <nickrvieira@gmail.com> (https://github.com/nickNaniviaa)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^0.14.3"
+  }
 }
